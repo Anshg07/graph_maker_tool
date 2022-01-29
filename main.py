@@ -1,4 +1,5 @@
 import std_func as sf
+import adv_func as af
 print("HI USER WELCOME TO THE GRAPH MAKER TOOL.")
 name=input("Please Enter Your Name : ")
 z=name.upper()
@@ -18,7 +19,11 @@ def std():
         print(z,"please enter the following values for your graph: ")
         print(sf.pie())
 def adv():
-    print("This mode is under construction!!")
+     y=str(input("Your choice: "))
+     if y=='lg':
+        print(z,"please enter the following values for your graph: ")
+        print(af.line())
+    
 key=input("Enter your mode (std/adv) : ")
 if key=="std":
     print(std())
