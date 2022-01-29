@@ -19,13 +19,21 @@ def std():
         print(z,"please enter the following values for your graph: ")
         print(sf.pie())
 def adv():
-     y=str(input("Your choice: "))
-     if y=='lg':
+    print("\n Please choose your objective from the followig options. \n1.Line Graph(lg)\n2.Bar Graph(bg)\n3.Pie Chart(pc)\nNote:please enter the bracket value to choose your desired option\n(eg. for line graph - type \'lg\')")
+    y=str(input("Your choice: "))
+    if y=='lg':
         print(z,"please enter the following values for your graph: ")
         print(af.line())
-    
+    elif y=='bg':
+        print(z,"please enter the following values for your graph: ")
+        print(af.bar())
+    elif y=='pc':
+        print(z,"please enter the following values for your graph: ")
+        print(af.pie())
 key=input("Enter your mode (std/adv) : ")
 if key=="std":
     print(std())
 elif key=="adv":
     print(adv())
+else:
+    print("Wrong input.please Run the program again.")

@@ -35,7 +35,4 @@ def pie():
         c=np.array(a)
         plt.pie(c,labels=b)
         plt.title(ts)
-        e=input("Do you want legend on pie chart?(y/n) : ")
-        if e=='y':
-                plt.legend()
         plt.show()
