@@ -1,4 +1,16 @@
 # graph_maker_tool
+REQUIREMENTS
+
+1.PYTHON 
+2.NUMPY LIBRARY
+3.MATPLOTLIB MODULE
+
+After installing Python from (www.python.org) open the CMD to install required modules:
+>>>pip install numpy
+>>>pip install matplotlib
+
+ABOUT APPLICATION
+
  Welcome to the Graph Making Tool.This application can make graphs like:
  1.Line Graph
  2.Bar Graph
